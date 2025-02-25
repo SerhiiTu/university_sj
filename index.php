@@ -29,6 +29,9 @@
         foreach($dictionary as $name => $age){
             echo "$name is $age years old </br>";
         }
+
+        // new code line
+        echo "new";
     ?>
 </body>
 </html>
