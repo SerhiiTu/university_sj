@@ -42,6 +42,7 @@
 
         // new lines I aded at home
         echo "test</br>";
+        echo "One more print"
     ?>
 </body>
 </html>
