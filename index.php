@@ -38,6 +38,10 @@
         foreach($test_list as $element){
             echo "$element"." ";
         }
+        echo "</br>";
+
+        // new lines I aded at home
+        echo "test</br>";
     ?>
 </body>
 </html>
