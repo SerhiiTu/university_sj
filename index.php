@@ -14,7 +14,7 @@
         echo "$name </br>";
         echo $name."</br>";
 
-        // value, value. ..., value(usual list)
+        // value, value. ..., value(usual list, pole)
         $colors = array("red", "green", "blue");
         echo $colors[0]." ";
         echo $colors[1]." ";
@@ -31,7 +31,13 @@
         }
 
         // new code line
-        echo "new";
+        echo "new"."</br>";
+
+        // new cycle
+        $test_list = array("one", "two", "three", "four", "five", "six");
+        foreach($test_list as $element){
+            echo "$element"." ";
+        }
     ?>
 </body>
 </html>
